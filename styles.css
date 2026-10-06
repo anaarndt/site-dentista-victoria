@@ -428,8 +428,13 @@
     .nav-links.open{display:flex;}
     .nav-links a{padding:10px 0; width:100%;}
     .menu-btn{display:block;}
+    .nav-cta{padding:8px 14px; font-size:12.5px; white-space:nowrap;}
+    .logo{font-size:15px; white-space:nowrap;}
+    nav.wrap{padding:0 20px; gap:8px;}
+    .wrap{padding:0 20px;}
     .hero-wrap{grid-template-columns:1fr;}
     .hero-visual{order:-1; margin-bottom:20px;}
+    .blob, .dashed-ring{display:none;}
     .floating-badge{left:12px;}
     .stats-grid{grid-template-columns:1fr 1fr;}
     .sobre-grid{grid-template-columns:1fr;}
@@ -448,5 +453,7 @@
     .steps-row{grid-template-columns:1fr;}
     .sobre-sidelist{grid-template-columns:1fr;}
     .stats-grid{grid-template-columns:1fr;}
+    .stat-item{border-left:none; padding:14px 0; border-top:1px solid var(--line);}
+    .stat-item:first-child{border-top:none;}
     section{padding:64px 0;}
   }
