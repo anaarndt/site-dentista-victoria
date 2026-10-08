@@ -453,7 +453,7 @@
     .steps-row{grid-template-columns:1fr;}
     .sobre-sidelist{grid-template-columns:1fr;}
     .stats-grid{grid-template-columns:1fr;}
-    .stat-item{border-left:none; padding:14px 0; border-top:1px solid var(--line);}
+    .stat-item{border-left:none; padding:14px 8px; border-top:1px solid var(--line); justify-content:flex-start;}
     .stat-item:first-child{border-top:none;}
     section{padding:64px 0;}
   }
